@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiKey = require("../../config/keys").youtubeKey;
+const apiKey = require("../config/keys").youtubeKey;
 
 export default axios.create({
   // axios.create() is a helper function that makes our axios.get() calls easier elsewhere
