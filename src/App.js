@@ -12,6 +12,10 @@ class App extends Component {
     selectedVideo: null
   };
 
+  componentDidMount() {
+    this.handleSubmit("pdf generation with react and node");
+  }
+
   onVideoSelect = video => {
     this.setState({ selectedVideo: video });
   };
